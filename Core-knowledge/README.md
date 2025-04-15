@@ -14,5 +14,5 @@
 2. We'll be using kali linux distro, debian operating system for hacking. Linux is made for hackers
    - Download kali from the official website
    - Download virtualization software
-   - Enable virtualization on windows
+   - Enable virtualization on windows: reboot your computer, enter BIOS settings, enbale virtualization as the name may be called VT-x; AMD-V; SVM, Vanderpool; enable intel VT-d or AMD IOMMUif the options are available.
 4. kkk
