@@ -15,4 +15,8 @@
    - Download kali from the official website
    - Download virtualization software
    - Enable virtualization on windows: reboot your computer, enter BIOS settings, enbale virtualization as the name may be called VT-x; AMD-V; SVM, Vanderpool; enable intel VT-d or AMD IOMMUif the options are available.
-4. kkk
+3. Installing kali linux as a VM on windows can be found here [Setting Up an Ethical Hacking Lab
+](https://medium.com/@Techspace4/setting-up-an-ethical-hacking-lab-e76287afa4ce)
+
+### Section3: Linux Basics
+1. Kali basics
