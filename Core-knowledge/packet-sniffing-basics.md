@@ -79,3 +79,11 @@ sudo airodump-ng wlan0mon
 ```
 
 This shows nearby Wi-Fi networks and connected devices — useful for wireless hacking.
+
+```bash
+iwconfig mon0
+```
+
+```bash
+airodump-ng mon0
+```
