@@ -119,8 +119,8 @@ Example:
 | 3      | HTTP     | 80   | 7              | GET request for a web page |
 
 
-## 📘 **Learning Outcome**
-You will be able to:
+
+**You will be able to:**
 - Understand protocol behavior
 - Map traffic to the OSI model
 - Recognize port usage
