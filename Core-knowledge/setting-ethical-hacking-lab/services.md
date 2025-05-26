@@ -1,6 +1,6 @@
-# 🐧 **Linux: List All Services**
+##  **Linux: List All Services**
 
-### 🔹 Using `systemctl` (modern systems with `systemd`)
+###  Using `systemctl` (modern systems with `systemd`)
 
 ```bash
 systemctl list-unit-files --type=service
@@ -20,7 +20,7 @@ To check the **status of a specific service**:
 systemctl status <service-name>
 ```
 
-### 🔹 To check open ports (used services)
+###  To check open ports (used services)
 
 ```bash
 sudo netstat -tulnp
@@ -32,11 +32,11 @@ or
 sudo ss -tulnp
 ```
 
----
 
-## 🪟 **Windows: List All Services**
 
-### 🔹 Using Command Prompt or PowerShell
+##  **Windows: List All Services**
+
+###  Using Command Prompt or PowerShell
 
 ```powershell
 Get-Service
@@ -56,11 +56,8 @@ To list only **stopped services**:
 Get-Service | Where-Object {$_.Status -eq "Stopped"}
 ```
 
-### 🔹 Using Task Manager or Services GUI
+###  Using Task Manager or Services GUI
 
 * Press `Windows + R` → type `services.msc` → Enter.
 * Manually browse and filter by `Status` column.
 
----
-
-Would you like a script to generate a report of active vs inactive services automatically on both OSes?
