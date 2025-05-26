@@ -1,14 +1,13 @@
-# 🔹 **Session 1: OS Hardening & Secure Configuration**
+## **Session 1: OS Hardening & Secure Configuration**
 
-## 🎯 **Objectives**
+##  **Objectives**
 
 * Understand and apply industry best practices for securing Linux and Windows OS.
 * Identify insecure default configurations and correct them.
 * Use system-native tools to improve system resilience against attacks.
 
----
 
-## 📚 **Topics to Cover**
+## **Topics to Cover**
 
 ### 1. **Disable Unnecessary Services**
 
@@ -20,7 +19,6 @@
 * `sudo systemctl list-units --type=service` (Linux)
 * `services.msc` or `sc query` (Windows)
 
----
 
 ### 2. **Configure Firewalls**
 
@@ -38,7 +36,7 @@ sudo ufw deny 23
 
 * Use **Windows Defender Firewall** GUI or `netsh advfirewall` CLI.
 
----
+
 
 ### 3. **Enforce Strong Password Policies**
 
@@ -52,7 +50,7 @@ sudo ufw deny 23
 * Use `secpol.msc` → Account Policies → Password Policy
 * Or: `net accounts /minpwlen:12 /maxpwage:30`
 
----
+
 
 ### 4. **Enable Logging/Auditing**
 
@@ -69,9 +67,9 @@ sudo auditctl -w /etc/passwd -p wa
 
 * Enable auditing via `secpol.msc` → Local Policies → Audit Policy
 
----
 
-## 🧰 **Tools Needed**
+
+## **Tools Needed**
 
 | Tool                         | System  | Purpose                           |
 | ---------------------------- | ------- | --------------------------------- |
@@ -81,9 +79,9 @@ sudo auditctl -w /etc/passwd -p wa
 | `services.msc`, `netstat`    | Windows | Manage services and network ports |
 | `systemctl`, `ps`, `netstat` | Linux   | Monitor and manage services       |
 
----
 
-## 🧪 **Lab Activity: OS Hardening Checklist**
+
+##  **Lab Activity: OS Hardening Checklist**
 
 **Instructions:**
 Students work in pairs or solo using:
@@ -101,7 +99,7 @@ Students work in pairs or solo using:
 | Enable logging/audit logs           | ✔️ (`auditd`)         | ✔️ (Audit Policy)     |
 | Verify no unused network ports open | ✔️ (`netstat -tulnp`) | ✔️ (`netstat -an`)    |
 
----
+
 
 ## 🧠 **Discussion / Debrief Questions**
 
@@ -109,7 +107,7 @@ Students work in pairs or solo using:
 * How did firewall rules differ between Linux and Windows?
 * What are the consequences of poor logging?
 
----
+
 
 ## 📝 **Assessment / Deliverable**
 
