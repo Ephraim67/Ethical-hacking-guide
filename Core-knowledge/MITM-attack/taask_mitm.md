@@ -1,6 +1,6 @@
 ## Lab Setup
 
-* **Kali Linux** → Attacker (with `ettercap`, `arpspoof`, or `bettercap`)
+* **Kali Linux** → Attacker (with `bettercap`)
 * **Windows Server (2019/2022)** → Victim machine (joined to network, e.g., ping or web traffic to pfSense)
 * **pfSense** → Gateway/Firewall for the network
 
@@ -34,7 +34,7 @@ Windows Server  <-->  pfSense (Gateway)  <-->  Internet
    echo 1 > /proc/sys/net/ipv4/ip_forward
    ```
 
-2. Use **arpspoof** or **ettercap**:
+2. Use **arpspoof**:
 
    ```bash
    # arpspoof -t <Windows_Server_IP> <pfSense_IP>
